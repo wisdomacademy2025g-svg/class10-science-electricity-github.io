@@ -1,0 +1,11 @@
+.sbsstyleDefault .steptitle {
+font-weight: bold; 
+}
+.sbsstyleDefault .steptext {
+margin-bottom: 10px;
+}
+.sbsstyleDefault {
+	border: 1px #2C9CDB solid;
+border-radius: 6px;
+padding: 10px;
+}

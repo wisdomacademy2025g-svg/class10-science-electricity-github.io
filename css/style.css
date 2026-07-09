@@ -1,0 +1,201 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.vertcenter {
+	  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#hprwrapper { 
+	display: block;
+	
+	width:99%; 
+	margin:0px auto; 
+}
+#hprheader { 
+	padding: 20px;
+  overflow: hidden;
+line-height: 4em;
+height: 4em;
+}
+
+#hprheader  #headerlogo {
+  float: left;
+}
+
+
+#headertitle {
+  float: left;
+font-size: 3em;
+margin-left: 20px;
+}
+
+.projecttitle {
+font-size: 3em;
+
+}
+
+#hprheader a {
+  color: #EAF5F7;
+}
+
+#hprcontent { 
+	width: 60%; 
+	float: right; 
+	padding: 10px;
+}
+#hprsidebar { 
+	width: 33%; 
+	float: left; 
+}
+.delimiter { 
+	clear: both; 
+	height: 15px;
+}
+#hprfooter { 
+	padding: 10px;
+}
+
+#hprtoctree a {
+white-space: normal;
+height: auto;
+padding: 0.5ex 1ex;
+margint-top:1ex;
+}
+
+#breadcrumbs{
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+}
+  
+#breadcrumbs li{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:15px;
+}
+  
+#breadcrumbs .separator{
+    font-size:18px;
+    font-weight:100;
+    color:#ccc;
+}
+
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+#nav {
+	float: right;
+}
+
+#navprev {
+	float: left;
+		
+}
+
+#navnext {
+	margin-left: 4.5em;
+}
+
+.ui-resizable-e { 
+    cursor: e-resize; 
+    width: 16px; 
+    right: -5px; 
+    top: 0; 
+    bottom: 0; 
+    background-color: gray;
+}
+
+.highlight { background-color: yellow }
+
+.slide img {
+   display: block; 
+   max-width: 100%; 
+   height: auto;
+   width: auto;
+   margin: 0 auto;
+}
+
+.slider {
+	margin: 20px;
+	border: 1px dashed black;
+}
+
+.steptitle {
+  padding: 5px;
+}
+
+.steptext {
+  padding: 5px;
+}
+
+#hprcontent img {
+   max-width: 100%; 
+   width: auto;
+   height: auto;
+}
+
+.aside {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.note {
+	background-color: #C9E8FF;
+	border-color: #004A7F;
+}
+
+.warning {
+	background-color: #FFEFA8;
+	border-color: #FFD800;
+}
+
+.info {
+	background-color: #BFC8FF;
+	border-color: #5F008E;
+}
+
+.tip {
+	background-color: #96FFA0;
+	border-color: #007000;
+}
+
+.error {
+	background-color: #FF7F7F;
+	border-color: #FF0000;
+}
+
+.question {
+	background-color: white;
+	border-color: black;
+}
+
+.discuss {
+	background-color: #CCCCCC;
+	border-color: #black;
+}
+
+.figure {
+	display: inline-block;
+zoom: 1;
+*display: inline;
+	padding: 5px;
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 5px #999;
+}
+
+.figcaption {
+	display: block;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.figure img {
+	display: block;
+  width: 100%;
+  height: auto;
+}
